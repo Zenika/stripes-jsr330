@@ -23,7 +23,7 @@ import org.springframework.web.context.support.WebApplicationContextUtils;
 
 import net.sourceforge.stripes.action.ActionBean;
 import net.sourceforge.stripes.action.ActionBeanContext;
-import net.sourceforge.stripes.controller.AnnotatedClassActionResolver;
+import net.sourceforge.stripes.controller.NameBasedActionResolver;
 import net.sourceforge.stripes.controller.StripesFilter;
 
 /**
@@ -34,7 +34,7 @@ import net.sourceforge.stripes.controller.StripesFilter;
  * @author Yohan Legat (Zenika)
  *
  */
-public class AnnotatedSpringClassActionResolver extends AnnotatedClassActionResolver {
+public class AnnotatedSpringClassActionResolver extends NameBasedActionResolver {
 
     /**
      * Helper method to construct and return a new ActionBean instance. Called whenever a new
