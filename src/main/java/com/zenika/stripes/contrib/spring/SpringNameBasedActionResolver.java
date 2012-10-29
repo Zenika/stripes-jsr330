@@ -34,7 +34,7 @@ import net.sourceforge.stripes.controller.StripesFilter;
  * @author Yohan Legat (Zenika)
  *
  */
-public class AnnotatedSpringClassActionResolver extends NameBasedActionResolver {
+public class SpringNameBasedActionResolver extends NameBasedActionResolver {
 
     /**
      * Helper method to construct and return a new ActionBean instance. Called whenever a new

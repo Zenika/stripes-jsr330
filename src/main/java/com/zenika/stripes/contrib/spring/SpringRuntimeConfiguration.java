@@ -39,7 +39,7 @@ import net.sourceforge.stripes.exception.StripesRuntimeException;
  * @author Yohan Legat (Zenika)
  *
  */
-public class AnnotatedSpringRuntimeConfiguration extends RuntimeConfiguration {
+public class SpringRuntimeConfiguration extends RuntimeConfiguration {
 
     /**
      * Splits a comma-separated list of class names and maps each {@link LifecycleStage} to the
